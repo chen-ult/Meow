@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 14d284d5621ddb14fb1454aaf61cdce6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6044663764046281980
+    second: "0_Lumi\u5991e_proj_0"
+  - first:
+      213: -5131426091415102976
+    second: "0_Lumi\u5991e_proj_1"
+  - first:
+      213: -8004885047539069208
+    second: "0_Lumi\u5991e_proj_2"
+  - first:
+      213: 208588466319912374
+    second: "0_Lumi\u5991e_proj_3"
+  - first:
+      213: 9041510332246338750
+    second: "0_Lumi\u5991e_proj_4"
+  - first:
+      213: 4493257153058476688
+    second: "0_Lumi\u5991e_proj_5"
+  - first:
+      213: -1439081684207976503
+    second: "0_Lumi\u5991e_proj_6"
+  - first:
+      213: -6509362877864007673
+    second: "0_Lumi\u5991e_proj_7"
+  - first:
+      213: -4178946737736589321
+    second: "0_Lumi\u5991e_proj_8"
+  - first:
+      213: -2506896113797776780
+    second: "0_Lumi\u5991e_proj_9"
+  - first:
+      213: 4289851170339545600
+    second: "0_Lumi\u5991e_proj_10"
+  - first:
+      213: 4555861016466721674
+    second: "0_Lumi\u5991e_proj_11"
+  - first:
+      213: -3948043948897476148
+    second: "0_Lumi\u5991e_proj_12"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "0_Lumi\u5991e_proj_0"
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 847
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc77aadaa5f2e350800000000000000
+      internalID: 6044663764046281980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_Lumi\u5991e_proj_1"
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 847
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a1806482389c8b0800000000000000
+      internalID: -5131426091415102976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_Lumi\u5991e_proj_2"
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 843
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee0991067fe8e090800000000000000
+      internalID: -8004885047539069208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_Lumi\u5991e_proj_3"
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 637
+        width: 284
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bded3fda1e05e200800000000000000
+      internalID: 208588466319912374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_Lumi\u5991e_proj_4"
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 438
+        width: 92
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc21924eb5e97d70800000000000000
+      internalID: 9041510332246338750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_Lumi\u5991e_proj_5"
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 674
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092988c03914b5e30800000000000000
+      internalID: 4493257153058476688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_Lumi\u5991e_proj_6"
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 675
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf330235da570ce0800000000000000
+      internalID: -1439081684207976503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_Lumi\u5991e_proj_7"
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 649
+        width: 202
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7082dce53f81aa5a0800000000000000
+      internalID: -6509362877864007673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_Lumi\u5991e_proj_8"
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 663
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffdee145166106c0800000000000000
+      internalID: -4178946737736589321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_Lumi\u5991e_proj_9"
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 668
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ab6404447b53dd0800000000000000
+      internalID: -2506896113797776780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_Lumi\u5991e_proj_10"
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 652
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002e16b29ec988b30800000000000000
+      internalID: 4289851170339545600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_Lumi\u5991e_proj_11"
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 646
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b8c8cd47ba93f30800000000000000
+      internalID: 4555861016466721674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_Lumi\u5991e_proj_12"
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 644
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1e55432fab539c0800000000000000
+      internalID: -3948043948897476148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "0_Lumi\u5991e_proj_0": 6044663764046281980
+      "0_Lumi\u5991e_proj_1": -5131426091415102976
+      "0_Lumi\u5991e_proj_10": 4289851170339545600
+      "0_Lumi\u5991e_proj_11": 4555861016466721674
+      "0_Lumi\u5991e_proj_12": -3948043948897476148
+      "0_Lumi\u5991e_proj_2": -8004885047539069208
+      "0_Lumi\u5991e_proj_3": 208588466319912374
+      "0_Lumi\u5991e_proj_4": 9041510332246338750
+      "0_Lumi\u5991e_proj_5": 4493257153058476688
+      "0_Lumi\u5991e_proj_6": -1439081684207976503
+      "0_Lumi\u5991e_proj_7": -6509362877864007673
+      "0_Lumi\u5991e_proj_8": -4178946737736589321
+      "0_Lumi\u5991e_proj_9": -2506896113797776780
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

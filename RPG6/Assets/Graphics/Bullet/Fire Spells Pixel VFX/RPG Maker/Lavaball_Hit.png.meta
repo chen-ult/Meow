@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: d9ed12fe384fe7a4b9c972a93416feb1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4368390478581758691
+    second: Lavaball_Hit_0
+  - first:
+      213: 6507460924879203499
+    second: Lavaball_Hit_1
+  - first:
+      213: -3701495313142458745
+    second: Lavaball_Hit_2
+  - first:
+      213: -1811527338239979729
+    second: Lavaball_Hit_3
+  - first:
+      213: -6343750245830251260
+    second: Lavaball_Hit_4
+  - first:
+      213: -4599484634459404880
+    second: Lavaball_Hit_5
+  - first:
+      213: 4102454751692298058
+    second: Lavaball_Hit_6
+  - first:
+      213: 978783540740846959
+    second: Lavaball_Hit_7
+  - first:
+      213: 9012847843060494408
+    second: Lavaball_Hit_8
+  - first:
+      213: -475097835170759118
+    second: Lavaball_Hit_9
+  - first:
+      213: -5268166306474960660
+    second: Lavaball_Hit_10
+  - first:
+      213: -8992969584368290151
+    second: Lavaball_Hit_11
+  - first:
+      213: 9117254939931890718
+    second: Lavaball_Hit_12
+  - first:
+      213: 3570029273986755955
+    second: Lavaball_Hit_13
+  - first:
+      213: -5059903662496838467
+    second: Lavaball_Hit_14
+  - first:
+      213: -478819548957229284
+    second: Lavaball_Hit_15
+  - first:
+      213: 999746312174474232
+    second: Lavaball_Hit_16
+  - first:
+      213: -4317894347575863767
+    second: Lavaball_Hit_17
+  - first:
+      213: 2837921349599720273
+    second: Lavaball_Hit_18
+  - first:
+      213: -7337336539489554845
+    second: Lavaball_Hit_19
+  - first:
+      213: -1833991862237792851
+    second: Lavaball_Hit_20
+  - first:
+      213: 5041218935829598992
+    second: Lavaball_Hit_21
+  - first:
+      213: -8887019877397491249
+    second: Lavaball_Hit_22
+  - first:
+      213: -156528180189835947
+    second: Lavaball_Hit_23
+  - first:
+      213: -7657146994374178383
+    second: Lavaball_Hit_24
+  - first:
+      213: -2414887296550287043
+    second: Lavaball_Hit_25
+  - first:
+      213: 1629419330209064843
+    second: Lavaball_Hit_26
+  - first:
+      213: 5990866698461717034
+    second: Lavaball_Hit_27
+  - first:
+      213: 2510937578060471284
+    second: Lavaball_Hit_28
+  - first:
+      213: 3507256708484640543
+    second: Lavaball_Hit_29
+  - first:
+      213: 5841239958378268062
+    second: Lavaball_Hit_30
+  - first:
+      213: 7724987131866193759
+    second: Lavaball_Hit_31
+  - first:
+      213: 374846229453217641
+    second: Lavaball_Hit_32
+  - first:
+      213: 3701151579544245336
+    second: Lavaball_Hit_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lavaball_Hit_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 617
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea701cdef3af9c30800000000000000
+      internalID: 4368390478581758691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 689
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bace821bb352f4a50800000000000000
+      internalID: 6507460924879203499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_2
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 617
+        width: 98
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786de52cf95a1acc0800000000000000
+      internalID: -3701495313142458745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_3
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 677
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f0c47db792cd6e0800000000000000
+      internalID: -1811527338239979729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_4
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 605
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40dad7513c876f7a0800000000000000
+      internalID: -6343750245830251260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_5
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 641
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b50e2518195b20c0800000000000000
+      internalID: -4599484634459404880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_6
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 665
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a479bb56cd8dee830800000000000000
+      internalID: 4102454751692298058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_7
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 635
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f657bd9c176559d00800000000000000
+      internalID: 978783540740846959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_8
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 647
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84034447c51141d70800000000000000
+      internalID: 9012847843060494408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_9
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 629
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ef61d390d1869f0800000000000000
+      internalID: -475097835170759118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_10
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 617
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8d0ecf7a6b3e6b0800000000000000
+      internalID: -5268166306474960660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_11
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 629
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996f5df4fcd823380800000000000000
+      internalID: -8992969584368290151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_12
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 647
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14d055001ff68e70800000000000000
+      internalID: 9117254939931890718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_13
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 611
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37de9b9b5ba4b8130800000000000000
+      internalID: 3570029273986755955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_14
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 611
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc8d2f6d6c97c9b0800000000000000
+      internalID: -5059903662496838467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_15
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 641
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f34e83824ea59f0800000000000000
+      internalID: -478819548957229284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_16
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 629
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f39aaa59ffcfdd00800000000000000
+      internalID: 999746312174474232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_17
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 599
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926d213d7f1c314c0800000000000000
+      internalID: -4317894347575863767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_18
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 605
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15373677e62526720800000000000000
+      internalID: 2837921349599720273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_19
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 599
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e2b3eca4b8c2a90800000000000000
+      internalID: -7337336539489554845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_20
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 581
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5fb524e1a5c86e0800000000000000
+      internalID: -1833991862237792851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_21
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 587
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0139811a9e106f540800000000000000
+      internalID: 5041218935829598992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_22
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 593
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc113e7c186faa480800000000000000
+      internalID: -8887019877397491249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_23
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 599
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d427e0376e3ddf0800000000000000
+      internalID: -156528180189835947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_24
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 605
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9806fb0695cb590800000000000000
+      internalID: -7657146994374178383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_25
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 575
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3944846cc89c7ed0800000000000000
+      internalID: -2414887296550287043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_26
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 581
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87244f6f3cdc9610800000000000000
+      internalID: 1629419330209064843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_27
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 443
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2227827585d32350800000000000000
+      internalID: 5990866698461717034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_28
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 419
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb59797c64a8d220800000000000000
+      internalID: 2510937578060471284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_29
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 431
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f2555e4674ca030800000000000000
+      internalID: 3507256708484640543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_30
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 407
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9544fe3bc0401150800000000000000
+      internalID: 5841239958378268062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_31
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 395
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f19512edaa43b60800000000000000
+      internalID: 7724987131866193759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_32
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 383
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f14ffd8a8b33500800000000000000
+      internalID: 374846229453217641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lavaball_Hit_33
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 383
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8545c9680c12d5330800000000000000
+      internalID: 3701151579544245336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lavaball_Hit_0: 4368390478581758691
+      Lavaball_Hit_1: 6507460924879203499
+      Lavaball_Hit_10: -5268166306474960660
+      Lavaball_Hit_11: -8992969584368290151
+      Lavaball_Hit_12: 9117254939931890718
+      Lavaball_Hit_13: 3570029273986755955
+      Lavaball_Hit_14: -5059903662496838467
+      Lavaball_Hit_15: -478819548957229284
+      Lavaball_Hit_16: 999746312174474232
+      Lavaball_Hit_17: -4317894347575863767
+      Lavaball_Hit_18: 2837921349599720273
+      Lavaball_Hit_19: -7337336539489554845
+      Lavaball_Hit_2: -3701495313142458745
+      Lavaball_Hit_20: -1833991862237792851
+      Lavaball_Hit_21: 5041218935829598992
+      Lavaball_Hit_22: -8887019877397491249
+      Lavaball_Hit_23: -156528180189835947
+      Lavaball_Hit_24: -7657146994374178383
+      Lavaball_Hit_25: -2414887296550287043
+      Lavaball_Hit_26: 1629419330209064843
+      Lavaball_Hit_27: 5990866698461717034
+      Lavaball_Hit_28: 2510937578060471284
+      Lavaball_Hit_29: 3507256708484640543
+      Lavaball_Hit_3: -1811527338239979729
+      Lavaball_Hit_30: 5841239958378268062
+      Lavaball_Hit_31: 7724987131866193759
+      Lavaball_Hit_32: 374846229453217641
+      Lavaball_Hit_33: 3701151579544245336
+      Lavaball_Hit_4: -6343750245830251260
+      Lavaball_Hit_5: -4599484634459404880
+      Lavaball_Hit_6: 4102454751692298058
+      Lavaball_Hit_7: 978783540740846959
+      Lavaball_Hit_8: 9012847843060494408
+      Lavaball_Hit_9: -475097835170759118
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

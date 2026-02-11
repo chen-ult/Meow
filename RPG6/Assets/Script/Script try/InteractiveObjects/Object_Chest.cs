@@ -1,0 +1,24 @@
+using UnityEngine;
+
+public class Object_Chest : MonoBehaviour , IDamagable
+{
+    private Rigidbody2D rb => GetComponent<Rigidbody2D>();
+    private Animator anim => GetComponentInChildren<Animator>();
+    private Entity_VFX fx => GetComponent<Entity_VFX>();
+
+    [Header("¿ªÏä²ÎÊý")]
+    [SerializeField] private Vector2 knockback;
+
+    public bool TakeDamage(float damage, Transform damageDealer, float elementalDamage, ElementType element)
+    {
+        fx.PlayOnDamageVfx();
+        anim.SetBool("chestOpen", true);
+
+        rb.linearVelocity = knockback;
+        rb.angularVelocity = Random.Range(-200f, 200f);
+
+        return true;
+    }
+
+    
+}

@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 4377a489218319c42b99e9cc9439316d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5589966021082272845
+    second: 0_Terre_proj_0
+  - first:
+      213: -4523900803640264989
+    second: 0_Terre_proj_1
+  - first:
+      213: 2276177356525983278
+    second: 0_Terre_proj_2
+  - first:
+      213: 2684652912446376462
+    second: 0_Terre_proj_3
+  - first:
+      213: -7682284988462557265
+    second: 0_Terre_proj_4
+  - first:
+      213: 7283307359594784249
+    second: 0_Terre_proj_5
+  - first:
+      213: -9056926967668859794
+    second: 0_Terre_proj_6
+  - first:
+      213: 8193491503044551108
+    second: 0_Terre_proj_7
+  - first:
+      213: -2939327856341799767
+    second: 0_Terre_proj_8
+  - first:
+      213: -2938726331914346286
+    second: 0_Terre_proj_9
+  - first:
+      213: 3908553936903204801
+    second: 0_Terre_proj_10
+  - first:
+      213: -414409521488408687
+    second: 0_Terre_proj_11
+  - first:
+      213: 6645403773259654307
+    second: 0_Terre_proj_12
+  - first:
+      213: 3581545228318571908
+    second: 0_Terre_proj_13
+  - first:
+      213: 5777248847018669761
+    second: 0_Terre_proj_14
+  - first:
+      213: 582887319128198264
+    second: 0_Terre_proj_15
+  - first:
+      213: -7074871163170060309
+    second: 0_Terre_proj_16
+  - first:
+      213: -271617533919965633
+    second: 0_Terre_proj_17
+  - first:
+      213: -7356990088491004685
+    second: 0_Terre_proj_18
+  - first:
+      213: 3373244166631409861
+    second: 0_Terre_proj_19
+  - first:
+      213: -7826369406153091504
+    second: 0_Terre_proj_20
+  - first:
+      213: -659902409103559272
+    second: 0_Terre_proj_21
+  - first:
+      213: 4312570974435178193
+    second: 0_Terre_proj_22
+  - first:
+      213: 3940746867198721287
+    second: 0_Terre_proj_23
+  - first:
+      213: 6697771792283943847
+    second: 0_Terre_proj_24
+  - first:
+      213: 2724518169481772903
+    second: 0_Terre_proj_25
+  - first:
+      213: 4740882875231233413
+    second: 0_Terre_proj_26
+  - first:
+      213: -1948323082272195291
+    second: 0_Terre_proj_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 0_Terre_proj_0
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 869
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44dc11ba7c839d40800000000000000
+      internalID: 5589966021082272845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_1
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 871
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6faef0030e731c0800000000000000
+      internalID: -4523900803640264989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_2
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 872
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26d48dfe3b969f10800000000000000
+      internalID: 2276177356525983278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_3
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 876
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a8597999dc14520800000000000000
+      internalID: 2684652912446376462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_4
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 871
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa79f57618a036590800000000000000
+      internalID: -7682284988462557265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_5
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 869
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5a2a67471831560800000000000000
+      internalID: 7283307359594784249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_6
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 882
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c117798e45f4280800000000000000
+      internalID: -9056926967668859794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_7
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 857
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1e62d6c1125b170800000000000000
+      internalID: 8193491503044551108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_8
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 856
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac265c43e86537d0800000000000000
+      internalID: -2939327856341799767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_9
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 865
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0a82e98fb8737d0800000000000000
+      internalID: -2938726331914346286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_10
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 863
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cfe192e819fd3630800000000000000
+      internalID: 3908553936903204801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_11
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 865
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19fc4206cb8bf3af0800000000000000
+      internalID: -414409521488408687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_12
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 865
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4ae2ed587393c50800000000000000
+      internalID: 6645403773259654307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_13
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 870
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d7ce8c86434b130800000000000000
+      internalID: 3581545228318571908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_14
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 841
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c635999739ec2050800000000000000
+      internalID: 5777248847018669761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_15
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 832
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c47b0bde4d61800800000000000000
+      internalID: 582887319128198264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_16
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 851
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7089f492201dd90800000000000000
+      internalID: -7074871163170060309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_17
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 843
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3eceefba450b3cf0800000000000000
+      internalID: -271617533919965633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_18
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 851
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc8c675e78b6e990800000000000000
+      internalID: -7356990088491004685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_19
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 857
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c849b482bb20de20800000000000000
+      internalID: 3373244166631409861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_20
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 840
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0569241bd76236390800000000000000
+      internalID: -7826369406153091504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_21
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 847
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89535f6514e87d6f0800000000000000
+      internalID: -659902409103559272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_22
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 856
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d67ed7c37459db30800000000000000
+      internalID: 4312570974435178193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_23
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 854
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70dfc11956850b630800000000000000
+      internalID: 3940746867198721287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_24
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 853
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a347b175f343fc50800000000000000
+      internalID: 6697771792283943847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_25
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 843
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ffe0c07de6fc520800000000000000
+      internalID: 2724518169481772903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_26
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 609
+        width: 247
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585e3e35bdffac140800000000000000
+      internalID: 4740882875231233413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Terre_proj_27
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 679
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52db875ba7a26f4e0800000000000000
+      internalID: -1948323082272195291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      0_Terre_proj_0: 5589966021082272845
+      0_Terre_proj_1: -4523900803640264989
+      0_Terre_proj_10: 3908553936903204801
+      0_Terre_proj_11: -414409521488408687
+      0_Terre_proj_12: 6645403773259654307
+      0_Terre_proj_13: 3581545228318571908
+      0_Terre_proj_14: 5777248847018669761
+      0_Terre_proj_15: 582887319128198264
+      0_Terre_proj_16: -7074871163170060309
+      0_Terre_proj_17: -271617533919965633
+      0_Terre_proj_18: -7356990088491004685
+      0_Terre_proj_19: 3373244166631409861
+      0_Terre_proj_2: 2276177356525983278
+      0_Terre_proj_20: -7826369406153091504
+      0_Terre_proj_21: -659902409103559272
+      0_Terre_proj_22: 4312570974435178193
+      0_Terre_proj_23: 3940746867198721287
+      0_Terre_proj_24: 6697771792283943847
+      0_Terre_proj_25: 2724518169481772903
+      0_Terre_proj_26: 4740882875231233413
+      0_Terre_proj_27: -1948323082272195291
+      0_Terre_proj_3: 2684652912446376462
+      0_Terre_proj_4: -7682284988462557265
+      0_Terre_proj_5: 7283307359594784249
+      0_Terre_proj_6: -9056926967668859794
+      0_Terre_proj_7: 8193491503044551108
+      0_Terre_proj_8: -2939327856341799767
+      0_Terre_proj_9: -2938726331914346286
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: 07bc42131c08e444fab28876eeebeeea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4397886727807919117
+    second: Charge_Fire_0
+  - first:
+      213: -8914451142823615000
+    second: Charge_Fire_1
+  - first:
+      213: -3953834470401348755
+    second: Charge_Fire_2
+  - first:
+      213: 3446750793022607827
+    second: Charge_Fire_3
+  - first:
+      213: 24224657778253470
+    second: Charge_Fire_4
+  - first:
+      213: -3201297709294002327
+    second: Charge_Fire_5
+  - first:
+      213: -2288277516263519788
+    second: Charge_Fire_6
+  - first:
+      213: 3495559787185164287
+    second: Charge_Fire_7
+  - first:
+      213: -589412896413937383
+    second: Charge_Fire_8
+  - first:
+      213: -6844936591923647865
+    second: Charge_Fire_9
+  - first:
+      213: -1758243268114340826
+    second: Charge_Fire_10
+  - first:
+      213: -1405782096828206546
+    second: Charge_Fire_11
+  - first:
+      213: 6075395299783122607
+    second: Charge_Fire_12
+  - first:
+      213: -2083355017126475629
+    second: Charge_Fire_13
+  - first:
+      213: 8604214855843528868
+    second: Charge_Fire_14
+  - first:
+      213: -4125043546787731284
+    second: Charge_Fire_15
+  - first:
+      213: -1526000087052778957
+    second: Charge_Fire_16
+  - first:
+      213: -4263412901125292751
+    second: Charge_Fire_17
+  - first:
+      213: -9006539931383304393
+    second: Charge_Fire_18
+  - first:
+      213: 6623454981313017248
+    second: Charge_Fire_19
+  - first:
+      213: -6975166564649636591
+    second: Charge_Fire_20
+  - first:
+      213: 732665600884908643
+    second: Charge_Fire_21
+  - first:
+      213: 5987329361753070648
+    second: Charge_Fire_22
+  - first:
+      213: 8569985246944041945
+    second: Charge_Fire_23
+  - first:
+      213: 190515121101719499
+    second: Charge_Fire_24
+  - first:
+      213: 8982045909064381709
+    second: Charge_Fire_25
+  - first:
+      213: -6462740292812548278
+    second: Charge_Fire_26
+  - first:
+      213: -1135893120612748289
+    second: Charge_Fire_27
+  - first:
+      213: 8165120791473786509
+    second: Charge_Fire_28
+  - first:
+      213: 4745377217810131786
+    second: Charge_Fire_29
+  - first:
+      213: -4393000460166421305
+    second: Charge_Fire_30
+  - first:
+      213: 7003872513435274956
+    second: Charge_Fire_31
+  - first:
+      213: 60004484720582064
+    second: Charge_Fire_32
+  - first:
+      213: 4698025193207958972
+    second: Charge_Fire_33
+  - first:
+      213: 8524807823320566059
+    second: Charge_Fire_34
+  - first:
+      213: 6295577779755683567
+    second: Charge_Fire_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Charge_Fire_0
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 749
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04656d8dae680d30800000000000000
+      internalID: 4397886727807919117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 725
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e56c689ae1894480800000000000000
+      internalID: -8914451142823615000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_2
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 737
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b680b5f782129c0800000000000000
+      internalID: -3953834470401348755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 707
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d19867a59155df20800000000000000
+      internalID: 3446750793022607827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_4
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 713
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e9da9a230165000800000000000000
+      internalID: 24224657778253470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_5
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 719
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f5241d1b4b293d0800000000000000
+      internalID: -3201297709294002327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_6
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 707
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9899709b76e30e0800000000000000
+      internalID: -2288277516263519788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_7
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 647
+        width: 68
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffcf4e2b19b28030800000000000000
+      internalID: 3495559787185164287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_8
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 641
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9119633f71cf1d7f0800000000000000
+      internalID: -589412896413937383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_9
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 707
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a61588f66e101a0800000000000000
+      internalID: -6844936591923647865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 641
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624a25f20177997e0800000000000000
+      internalID: -1758243268114340826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_11
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 665
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2273fe81a8ad7ce0800000000000000
+      internalID: -1405782096828206546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_12
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 665
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae96a916d3205450800000000000000
+      internalID: 6075395299783122607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_13
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 647
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398062766af6613e0800000000000000
+      internalID: -2083355017126475629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_14
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a041b503df486770800000000000000
+      internalID: 8604214855843528868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_15
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 665
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca823b6efb6e0c6c0800000000000000
+      internalID: -4125043546787731284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_16
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 647
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3320104810f82dae0800000000000000
+      internalID: -1526000087052778957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_17
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 605
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13dfb911e8055d4c0800000000000000
+      internalID: -4263412901125292751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_18
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 629
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fe68ea6a7520380800000000000000
+      internalID: -9006539931383304393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_19
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 629
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a534f2863d3beb50800000000000000
+      internalID: 6623454981313017248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_20
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 605
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d60e827fa333f90800000000000000
+      internalID: -6975166564649636591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_21
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 593
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362a4ef6b73fa2a00800000000000000
+      internalID: 732665600884908643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_22
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 617
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83cde801554471350800000000000000
+      internalID: 5987329361753070648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_23
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 593
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db10762d24bee670800000000000000
+      internalID: 8569985246944041945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_24
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 581
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7cb954e78d4a200800000000000000
+      internalID: 190515121101719499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_25
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 593
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0578065a23a6ac70800000000000000
+      internalID: 8982045909064381709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_26
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 581
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47dd4bd1fbbf46a0800000000000000
+      internalID: -6462740292812548278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_27
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 593
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3311b993f7c30f0800000000000000
+      internalID: -1135893120612748289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_28
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 539
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e83f36916505170800000000000000
+      internalID: 8165120791473786509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_29
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 473
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4bedc00077fad140800000000000000
+      internalID: 4745377217810131786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_30
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 437
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c427a94b5de803c0800000000000000
+      internalID: -4393000460166421305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_31
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 473
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce8e6f51f0c23160800000000000000
+      internalID: 7003872513435274956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_32
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 473
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd53bcc2cd25d000800000000000000
+      internalID: 60004484720582064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_33
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 455
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd0ff2a50db23140800000000000000
+      internalID: 4698025193207958972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_34
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 473
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b294e778c833e4670800000000000000
+      internalID: 8524807823320566059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Fire_35
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 425
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee0e22a2a26e5750800000000000000
+      internalID: 6295577779755683567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Charge_Fire_0: 4397886727807919117
+      Charge_Fire_1: -8914451142823615000
+      Charge_Fire_10: -1758243268114340826
+      Charge_Fire_11: -1405782096828206546
+      Charge_Fire_12: 6075395299783122607
+      Charge_Fire_13: -2083355017126475629
+      Charge_Fire_14: 8604214855843528868
+      Charge_Fire_15: -4125043546787731284
+      Charge_Fire_16: -1526000087052778957
+      Charge_Fire_17: -4263412901125292751
+      Charge_Fire_18: -9006539931383304393
+      Charge_Fire_19: 6623454981313017248
+      Charge_Fire_2: -3953834470401348755
+      Charge_Fire_20: -6975166564649636591
+      Charge_Fire_21: 732665600884908643
+      Charge_Fire_22: 5987329361753070648
+      Charge_Fire_23: 8569985246944041945
+      Charge_Fire_24: 190515121101719499
+      Charge_Fire_25: 8982045909064381709
+      Charge_Fire_26: -6462740292812548278
+      Charge_Fire_27: -1135893120612748289
+      Charge_Fire_28: 8165120791473786509
+      Charge_Fire_29: 4745377217810131786
+      Charge_Fire_3: 3446750793022607827
+      Charge_Fire_30: -4393000460166421305
+      Charge_Fire_31: 7003872513435274956
+      Charge_Fire_32: 60004484720582064
+      Charge_Fire_33: 4698025193207958972
+      Charge_Fire_34: 8524807823320566059
+      Charge_Fire_35: 6295577779755683567
+      Charge_Fire_4: 24224657778253470
+      Charge_Fire_5: -3201297709294002327
+      Charge_Fire_6: -2288277516263519788
+      Charge_Fire_7: 3495559787185164287
+      Charge_Fire_8: -589412896413937383
+      Charge_Fire_9: -6844936591923647865
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: f92b1c6b81905f044a0f2c71f7de7aa6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1881206200149237805
+    second: 0_Glace_proj_0
+  - first:
+      213: 4358797958467838313
+    second: 0_Glace_proj_1
+  - first:
+      213: 3553050143003007483
+    second: 0_Glace_proj_2
+  - first:
+      213: 2408821356406810091
+    second: 0_Glace_proj_3
+  - first:
+      213: -5063287100805617102
+    second: 0_Glace_proj_4
+  - first:
+      213: 210646584735867182
+    second: 0_Glace_proj_5
+  - first:
+      213: -2330886762659397873
+    second: 0_Glace_proj_6
+  - first:
+      213: -2697381574938236868
+    second: 0_Glace_proj_7
+  - first:
+      213: 3117431441327195422
+    second: 0_Glace_proj_8
+  - first:
+      213: 4361737083762788863
+    second: 0_Glace_proj_9
+  - first:
+      213: -8364366668682936636
+    second: 0_Glace_proj_10
+  - first:
+      213: -2182853788031150040
+    second: 0_Glace_proj_11
+  - first:
+      213: -6336499387752364950
+    second: 0_Glace_proj_12
+  - first:
+      213: -6633982527933573917
+    second: 0_Glace_proj_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 0_Glace_proj_0
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 892
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20682d62136b1a10800000000000000
+      internalID: 1881206200149237805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Glace_proj_1
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 924
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9616c2a36af8d7c30800000000000000
+      internalID: 4358797958467838313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Glace_proj_2
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 905
+        width: 8
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf958dab748fe4130800000000000000
+      internalID: 3553050143003007483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Glace_proj_3
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 864
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5a00cd24add6120800000000000000
+      internalID: 2408821356406810091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Glace_proj_4
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 602
+        width: 130
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ae9a055379bb9b0800000000000000
+      internalID: -5063287100805617102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Glace_proj_5
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 863
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21a458e3fd5ce200800000000000000
+      internalID: 210646584735867182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Glace_proj_6
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 589
+        width: 132
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0fb604c6d607afd0800000000000000
+      internalID: -2330886762659397873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Glace_proj_7
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 847
+        width: 31
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c386f1abfb9f09ad0800000000000000
+      internalID: -2697381574938236868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Glace_proj_8
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 847
+        width: 88
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1501f70167534b20800000000000000
+      internalID: 3117431441327195422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Glace_proj_9
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 847
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff94459a4c0088c30800000000000000
+      internalID: 4361737083762788863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Glace_proj_10
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 847
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce3906c4dccbeb80800000000000000
+      internalID: -8364366668682936636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Glace_proj_11
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 389
+        width: 141
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82899c78b02f4b1e0800000000000000
+      internalID: -2182853788031150040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Glace_proj_12
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 393
+        width: 144
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a644a89016b3018a0800000000000000
+      internalID: -6336499387752364950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Glace_proj_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 597
+        width: 124
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e41f580a0c5fe3a0800000000000000
+      internalID: -6633982527933573917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      0_Glace_proj_0: 1881206200149237805
+      0_Glace_proj_1: 4358797958467838313
+      0_Glace_proj_10: -8364366668682936636
+      0_Glace_proj_11: -2182853788031150040
+      0_Glace_proj_12: -6336499387752364950
+      0_Glace_proj_13: -6633982527933573917
+      0_Glace_proj_2: 3553050143003007483
+      0_Glace_proj_3: 2408821356406810091
+      0_Glace_proj_4: -5063287100805617102
+      0_Glace_proj_5: 210646584735867182
+      0_Glace_proj_6: -2330886762659397873
+      0_Glace_proj_7: -2697381574938236868
+      0_Glace_proj_8: 3117431441327195422
+      0_Glace_proj_9: 4361737083762788863
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

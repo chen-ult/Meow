@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: f4a4dd027418c61428f644086b96f4ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1237688721171888619
+    second: 0_Feu_proj_0
+  - first:
+      213: 6926441443486981142
+    second: 0_Feu_proj_1
+  - first:
+      213: 946177833625106
+    second: 0_Feu_proj_2
+  - first:
+      213: 3932332450378060329
+    second: 0_Feu_proj_3
+  - first:
+      213: 458705873826961604
+    second: 0_Feu_proj_4
+  - first:
+      213: -9062310710758886472
+    second: 0_Feu_proj_5
+  - first:
+      213: -1216476188519944108
+    second: 0_Feu_proj_6
+  - first:
+      213: 1866263624670487295
+    second: 0_Feu_proj_7
+  - first:
+      213: -3287824912390939804
+    second: 0_Feu_proj_8
+  - first:
+      213: 6328795150913795433
+    second: 0_Feu_proj_9
+  - first:
+      213: 8194099357346454149
+    second: 0_Feu_proj_10
+  - first:
+      213: 7324028943825876338
+    second: 0_Feu_proj_11
+  - first:
+      213: 2942529104733147098
+    second: 0_Feu_proj_12
+  - first:
+      213: 5849591485260777918
+    second: 0_Feu_proj_13
+  - first:
+      213: 227018765701901971
+    second: 0_Feu_proj_14
+  - first:
+      213: 2194739205529835683
+    second: 0_Feu_proj_15
+  - first:
+      213: -5483071441032091790
+    second: 0_Feu_proj_16
+  - first:
+      213: 2047607304864572905
+    second: 0_Feu_proj_17
+  - first:
+      213: -7396963161712485439
+    second: 0_Feu_proj_18
+  - first:
+      213: 8922154531753673533
+    second: 0_Feu_proj_19
+  - first:
+      213: 686322393917697574
+    second: 0_Feu_proj_20
+  - first:
+      213: -5905831821398248288
+    second: 0_Feu_proj_21
+  - first:
+      213: -7061044182307192920
+    second: 0_Feu_proj_22
+  - first:
+      213: -4730183294794576439
+    second: 0_Feu_proj_23
+  - first:
+      213: -120369259056698846
+    second: 0_Feu_proj_24
+  - first:
+      213: -5912898134230379488
+    second: 0_Feu_proj_25
+  - first:
+      213: -7713957277430379366
+    second: 0_Feu_proj_26
+  - first:
+      213: 1018130085775892013
+    second: 0_Feu_proj_27
+  - first:
+      213: 5146001792659473855
+    second: 0_Feu_proj_28
+  - first:
+      213: -1478620351551280119
+    second: 0_Feu_proj_29
+  - first:
+      213: -5289376740998806181
+    second: 0_Feu_proj_30
+  - first:
+      213: -6551909333929619669
+    second: 0_Feu_proj_31
+  - first:
+      213: 7975872522186229562
+    second: 0_Feu_proj_32
+  - first:
+      213: -3025313341272305508
+    second: 0_Feu_proj_33
+  - first:
+      213: 5533353417001652459
+    second: 0_Feu_proj_34
+  - first:
+      213: 2214238843554916737
+    second: 0_Feu_proj_35
+  - first:
+      213: 670892799642520810
+    second: 0_Feu_proj_36
+  - first:
+      213: 5548218172450050343
+    second: 0_Feu_proj_37
+  - first:
+      213: -1659184541547161548
+    second: 0_Feu_proj_38
+  - first:
+      213: 3395672929615015904
+    second: 0_Feu_proj_39
+  - first:
+      213: 1629727731842601695
+    second: 0_Feu_proj_40
+  - first:
+      213: -3714446533376694345
+    second: 0_Feu_proj_41
+  - first:
+      213: -6970616271828733308
+    second: 0_Feu_proj_42
+  - first:
+      213: 5656268635887199658
+    second: 0_Feu_proj_43
+  - first:
+      213: 5401500288979530151
+    second: 0_Feu_proj_44
+  - first:
+      213: -8502908283015487558
+    second: 0_Feu_proj_45
+  - first:
+      213: 5914720075545304618
+    second: 0_Feu_proj_46
+  - first:
+      213: -164213572888685287
+    second: 0_Feu_proj_47
+  - first:
+      213: 5669038100112941314
+    second: 0_Feu_proj_48
+  - first:
+      213: -6045330995146106011
+    second: 0_Feu_proj_49
+  - first:
+      213: -3620615894334273385
+    second: 0_Feu_proj_50
+  - first:
+      213: 1302979901622385802
+    second: 0_Feu_proj_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 0_Feu_proj_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 765
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be935f795572d2110800000000000000
+      internalID: 1237688721171888619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Feu_proj_1
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 765
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61cd5948bc9af1060800000000000000
+      internalID: 6926441443486981142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Feu_proj_2
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 765
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 216eaa13b8c530000800000000000000
+      internalID: 946177833625106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Feu_proj_3
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 765
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 922968b7783729630800000000000000
+      internalID: 3932332450378060329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Feu_proj_4
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 765
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c857d9df86ad5600800000000000000
+      internalID: 458705873826961604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Feu_proj_5
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 605
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3bff83c643c3280800000000000000
+      internalID: -9062310710758886472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Feu_proj_6
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 605
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4503c890a553e1fe0800000000000000
+      internalID: -1216476188519944108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_Feu_proj_7
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 607
+        width: 161
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda1c18978666e9419ed5ab123ecdb68
+      internalID: -1216364396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 20dcdc91c845a914cb274af621e8dac2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      0_Feu_proj_0: 1237688721171888619
+      0_Feu_proj_1: 6926441443486981142
+      0_Feu_proj_2: 946177833625106
+      0_Feu_proj_3: 3932332450378060329
+      0_Feu_proj_4: 458705873826961604
+      0_Feu_proj_5: -9062310710758886472
+      0_Feu_proj_6: -1216476188519944108
+      0_Feu_proj_7: -1216364396
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
