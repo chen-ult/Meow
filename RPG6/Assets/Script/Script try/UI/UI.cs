@@ -10,6 +10,7 @@ public class UI : MonoBehaviour
     public UI_PauseMenu pauseMenu;
     [SerializeField] private GameObject bossHealthBarRoot;
     public UI_SavePointMenu savePointMenu;
+    public UI_GameOver gameOver;
 
     public UI_InGame inGameUI { get; private set; }
 
@@ -32,6 +33,7 @@ public class UI : MonoBehaviour
         deathScreen = GetComponentInChildren<UI_DeathScreen>(true);
         pauseMenu = GetComponentInChildren<UI_PauseMenu>(true);
         savePointMenu = GetComponentInChildren<UI_SavePointMenu>(true);
+        gameOver = GetComponentInChildren<UI_GameOver>(true);
     }
 
     private void OnEnable()
@@ -80,6 +82,11 @@ public class UI : MonoBehaviour
             AudioManager.Instance?.PlayBossMusic(true);
         else
             AudioManager.Instance?.PlayBossMusic(false);
+    }
+
+    public void ShowGameOver()
+    {
+        gameOver?.Show();
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)

@@ -22,6 +22,8 @@ public class AudioManager : MonoBehaviour
 
     [Header("Settings")]
     public float musicFadeDuration = 1f;
+    [Range(0f, 1f)] public float musicVolume = 0.5f;
+    [Range(0f, 1f)] public float sfxVolume = 0.6f;
 
     private AudioSource activeMusic;
     private AudioSource incomingMusic;
@@ -45,6 +47,9 @@ public class AudioManager : MonoBehaviour
 
         musicSourceA.loop = true;
         musicSourceB.loop = true;
+        musicSourceA.volume = musicVolume;
+        musicSourceB.volume = musicVolume;
+        sfxSource.volume = sfxVolume;
 
         activeMusic = musicSourceA;
         incomingMusic = musicSourceB;
@@ -107,13 +112,13 @@ public class AudioManager : MonoBehaviour
         {
             t += Time.unscaledDeltaTime;
             float p = Mathf.Clamp01(t / duration);
-            incoming.volume = Mathf.Lerp(0f, 1f, p);
+            incoming.volume = Mathf.Lerp(0f, musicVolume, p);
             activeMusic.volume = Mathf.Lerp(startVolActive, 0f, p);
             yield return null;
         }
 
         activeMusic.Stop();
-        activeMusic.volume = 1f;
+        activeMusic.volume = musicVolume;
         activeMusic = incoming;
         crossfadeCo = null;
     }
@@ -136,7 +141,7 @@ public class AudioManager : MonoBehaviour
     public void PlaySFX(AudioClip clip, float volume = 1f)
     {
         if (clip == null || sfxSource == null) return;
-        sfxSource.PlayOneShot(clip, volume);
+        sfxSource.PlayOneShot(clip, volume * sfxVolume);
     }
 
     public void PlayHitSFX()

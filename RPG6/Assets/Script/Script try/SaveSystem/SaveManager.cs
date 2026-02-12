@@ -18,6 +18,7 @@ public class SaveManager : MonoBehaviour
 
     private SaveData pendingRespawnData;
     private SavePointData pendingTeleportPoint;
+    private string pendingSpawnPointId;
 
     private string SavePath => Path.Combine(Application.persistentDataPath, "save.json");
 
@@ -61,6 +62,32 @@ public class SaveManager : MonoBehaviour
     public void ClearShowBossHealthBar()
     {
         PendingShowBossHealthBar = false;
+    }
+
+    public void RequestSpawnPoint(string pointId)
+    {
+        pendingSpawnPointId = pointId;
+    }
+
+    public bool HasPendingSpawnPoint() => !string.IsNullOrEmpty(pendingSpawnPointId);
+
+    public void ApplyPendingSpawnPoint(Player player)
+    {
+        if (player == null || string.IsNullOrEmpty(pendingSpawnPointId))
+            return;
+
+        var points = Object.FindObjectsByType<BossSpawnPoint>(FindObjectsSortMode.None);
+        foreach (var point in points)
+        {
+            if (point != null && point.PointId == pendingSpawnPointId)
+            {
+                player.transform.position = point.Position;
+                pendingSpawnPointId = null;
+                return;
+            }
+        }
+
+        pendingSpawnPointId = null;
     }
 
     public void SetStartPoint(Vector3 position)

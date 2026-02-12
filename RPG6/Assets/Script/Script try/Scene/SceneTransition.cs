@@ -6,6 +6,7 @@ public class SceneTransition : MonoBehaviour
     [SerializeField] private string targetSceneName;
     [SerializeField] private string playerTag = "Player";
     [SerializeField] private bool showBossHealthBarOnLoad;
+    [SerializeField] private string bossSpawnPointId = "BossEntry";
     [Header("Float")]
     [SerializeField] private float floatAmplitude = 0.25f;
     [SerializeField] private float floatSpeed = 2f;
@@ -33,6 +34,9 @@ public class SceneTransition : MonoBehaviour
 
         if (showBossHealthBarOnLoad && SaveManager.Instance != null)
             SaveManager.Instance.RequestShowBossHealthBar();
+
+        if (!string.IsNullOrEmpty(bossSpawnPointId) && SaveManager.Instance != null)
+            SaveManager.Instance.RequestSpawnPoint(bossSpawnPointId);
 
         if (!string.IsNullOrEmpty(targetSceneName))
             SceneManager.LoadScene(targetSceneName);

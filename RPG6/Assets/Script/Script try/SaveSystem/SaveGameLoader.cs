@@ -31,6 +31,12 @@ public class SaveGameLoader : MonoBehaviour
             return;
         }
 
+        if (manager.HasPendingSpawnPoint())
+        {
+            manager.ApplyPendingSpawnPoint(player);
+            return;
+        }
+
         if (manager.PendingLoad)
         {
             manager.Load(player);
@@ -47,5 +53,9 @@ public class SaveGameLoader : MonoBehaviour
             manager.Save(player);
             manager.ClearPending();
         }
+
+        // rebind cinemachine virtual cameras to player after scene load
+        var binder = FindFirstObjectByType<CinemachineFollowBinder>();
+        binder?.BindAll();
     }
 }
