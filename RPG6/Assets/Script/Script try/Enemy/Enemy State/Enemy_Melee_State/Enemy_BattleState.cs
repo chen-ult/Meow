@@ -5,6 +5,8 @@ public class Enemy_BattleState : EnemyState
 {
     private Transform player;
     private float lastTimeWasInBattle;
+    private Entity_Health health;
+
     public Enemy_BattleState(Enemy enemy, StateMachine stateMachine, string animBoolName) : base(enemy, stateMachine, animBoolName)
     {
     }
@@ -12,6 +14,13 @@ public class Enemy_BattleState : EnemyState
     public override void Enter()
     {
         base.Enter();
+
+        health = enemy.GetComponent<Entity_Health>();
+        if (health != null)
+        {
+            health.OnTakingDamage += OnEnemyDamaged;
+            // do not change canRegenerateHealth here; Enemy_Health's damage timer will control regen
+        }
 
         UpdateBattleTimer();
         player ??= enemy.GetPlayerReference();
@@ -24,6 +33,16 @@ public class Enemy_BattleState : EnemyState
         
     }
 
+    public override void Exit()
+    {
+        base.Exit();
+        if (health != null)
+        {
+            health.OnTakingDamage -= OnEnemyDamaged;
+            health = null;
+        }
+    }
+
     public override void Update()
     {
         base.Update();
@@ -31,16 +50,23 @@ public class Enemy_BattleState : EnemyState
         if (enemy.PlayerDetected())
             UpdateBattleTimer();
 
+        // timer is driven by damage events (player attacks). If timer expires, switch out of battle.
         if (BattleTimeIsOver())
         {
             stateMachine.ChangeState(enemy.idleState);
+            return;
         }
 
         if (WithinAttackRange() && enemy.PlayerDetected())
             stateMachine.ChangeState(enemy.attackState);
-        else if(player.position.y < enemy.transform.position.y + 5)
+        else if (player != null && player.position.y < enemy.transform.position.y + 5)
             enemy.SetVelocity(enemy.battleMoveSpeed * DirectionToPlayer(), rb.linearVelocity.y);
 
+    }
+
+    private void OnEnemyDamaged()
+    {
+        UpdateBattleTimer();
     }
 
     private void UpdateBattleTimer() => lastTimeWasInBattle = Time.time;

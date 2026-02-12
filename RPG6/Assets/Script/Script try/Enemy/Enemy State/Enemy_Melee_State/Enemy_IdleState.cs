@@ -11,6 +11,8 @@ public class Enemy_IdleState : Enemy_GroundState
         base.Enter();
 
         stateTimer = enemy.idleTime;
+
+        // do not change canRegenerateHealth here; Enemy_Health damage timer controls regen
     }
 
     public override void Exit()

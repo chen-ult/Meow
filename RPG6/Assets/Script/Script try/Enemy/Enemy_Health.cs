@@ -16,31 +16,29 @@ public class Enemy_Health : Entity_Health
     protected override void Awake()
     {
         base.Awake(); 
+        // start as eligible for regen by default
         outOfCombatTimer = outOfCombatTime;
         outOfCombatRegenTriggered = false;
     }
 
     private void Update()
     {
-        // 不满足条件则停止计时：死亡/全局禁止回血/关闭脱战回血/血量已满
-        if (isDead || !canRegenerateHealth || !enableOutOfCombatRegen || currentHealth >= entityStats.GetMaxHealth())
+        // stop counting in these terminal states
+        if (isDead || !enableOutOfCombatRegen || currentHealth >= entityStats.GetMaxHealth())
             return;
 
-        // 累加计时器，限制最大值（避免数值过大）
+        // accumulate timer regardless of canRegenerateHealth so that damage-based timer
+        // controls regen independently of other systems (e.g. AI disabling canRegenerateHealth)
         outOfCombatTimer += Time.deltaTime;
         outOfCombatTimer = Mathf.Min(outOfCombatTimer, outOfCombatTime);
 
-        // When timer reaches the threshold, trigger an immediate regen (once) so we don't wait
-        // for the next InvokeRepeating tick. Reset in TakeDamage.
+        // trigger immediate first tick when timer reaches threshold
         if (!outOfCombatRegenTriggered && outOfCombatTimer >= outOfCombatTime)
         {
             outOfCombatRegenTriggered = true;
-            // call RegenerateHealth directly to attempt immediate regen
             RegenerateHealth();
         }
     }
-
-
 
     public override bool TakeDamage(float damage, Transform damageDealer, float elementalDamage, ElementType element)//造成伤害(敌人版的重写，主要关于敌人AI)
     {
@@ -48,8 +46,6 @@ public class Enemy_Health : Entity_Health
 
         if (!wasHit)
             return false;
-
-        
 
         if (damageDealer.GetComponent<Player>() != null)
             enemy.TryEnterBattleState(damageDealer);
@@ -61,20 +57,19 @@ public class Enemy_Health : Entity_Health
     {
         base.ReduceHealth(damage);
 
-        outOfCombatTimer = 0;
+        // reset out-of-combat timer on any health reduction
+        outOfCombatTimer = 0f;
         outOfCombatRegenTriggered = false;
-        
-    
     }
-
 
     protected override void RegenerateHealth()
     {
-        // 敌人回血额外条件：开启脱战回血 + 计时器达到脱战时间
+        // only allow enemy out-of-combat regen when timer reached and feature enabled
         if (!enableOutOfCombatRegen || outOfCombatTimer < outOfCombatTime)
             return;
 
-        // 满足所有条件，执行父类的基础回血逻辑
-        base.RegenerateHealth();
+        // perform actual regen regardless of Entity_Health.canRegenerateHealth state
+        float regenAmount = entityStats.resource.healthRegen.GetValue();
+        IncreaseHealth(regenAmount);
     }
 }
