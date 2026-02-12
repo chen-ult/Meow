@@ -21,9 +21,6 @@ public class Entity_Health : MonoBehaviour , IDamagable
     [SerializeField] private float regenInterval = 1;//再生间隔
     [SerializeField] protected bool canRegenerateHealth = true;//是否可以再生生命
 
-    [Header("死亡设置")]
-    [SerializeField] private float destroyDelay = 3f; // 死亡后销毁延迟（秒）
-
     public float lastDamageTake { get; private set; }
     protected bool canTakeDamage = true;
 
@@ -138,6 +135,9 @@ public class Entity_Health : MonoBehaviour , IDamagable
         entityVfx?.PlayOnDamageVfx();
         OnHealthUpdate?.Invoke();
 
+        // play hit SFX if AudioManager exists
+        AudioManager.Instance?.PlayHitSFX();
+
         if (currentHealth <= 0)
             Die();
     }
@@ -150,13 +150,6 @@ public class Entity_Health : MonoBehaviour , IDamagable
         // drop items if a DropOnDeath component is attached
         var dropper = GetComponent<DropOnDeath>() ?? GetComponentInChildren<DropOnDeath>();
         dropper?.DropItems();
-
-        // destroy after delay if this is an enemy (players should not be destroyed)
-        var enemy = GetComponent<Enemy>();
-        if (enemy != null)
-        {
-            Destroy(enemy.gameObject, destroyDelay);
-        }
     }
 
     public float GetHealthPercent() => currentHealth / entityStats.GetMaxHealth();//获取生命百分比
@@ -222,6 +215,5 @@ public class Entity_Health : MonoBehaviour , IDamagable
         if (!IsInvoking(nameof(RegenerateHealth)))
             InvokeRepeating(nameof(RegenerateHealth), 0, regenInterval);
     }
-
 
 }

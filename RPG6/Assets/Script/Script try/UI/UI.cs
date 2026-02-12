@@ -1,5 +1,5 @@
- using UnityEngine;
- using UnityEngine.SceneManagement;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UI : MonoBehaviour
 {
@@ -74,6 +74,12 @@ public class UI : MonoBehaviour
     {
         if (bossHealthBarRoot != null)
             bossHealthBarRoot.SetActive(show);
+
+        // trigger boss music when boss bar shows
+        if (show)
+            AudioManager.Instance?.PlayBossMusic(true);
+        else
+            AudioManager.Instance?.PlayBossMusic(false);
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
