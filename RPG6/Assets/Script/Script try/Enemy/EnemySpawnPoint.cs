@@ -7,8 +7,13 @@ public class EnemySpawnPoint : MonoBehaviour
     [SerializeField] private int count = 1;
     [SerializeField] private float spawnRadius = 0f;
     [SerializeField] private bool spawnOnStart = true;
+    [SerializeField] private bool spawnOnPlayerEnter = true;
+    [SerializeField] private float triggerRadius = 3f;
+    [SerializeField] private LayerMask playerLayer;
+    [SerializeField] private bool spawnOnce = true;
 
     private readonly List<GameObject> spawned = new List<GameObject>();
+    private bool hasSpawned;
 
     private void Start()
     {
@@ -16,9 +21,26 @@ public class EnemySpawnPoint : MonoBehaviour
             Spawn();
     }
 
+    private void Update()
+    {
+        if (!spawnOnPlayerEnter)
+            return;
+
+        if (spawnOnce && hasSpawned)
+            return;
+
+        if (Physics2D.OverlapCircle(transform.position, triggerRadius, playerLayer) == null)
+            return;
+
+        Spawn();
+    }
+
     public void Spawn()
     {
         if (enemyPrefab == null || count <= 0)
+            return;
+
+        if (spawnOnce && hasSpawned)
             return;
 
         for (int i = 0; i < count; i++)
@@ -28,6 +50,8 @@ public class EnemySpawnPoint : MonoBehaviour
             var instance = Instantiate(enemyPrefab, pos, Quaternion.identity);
             spawned.Add(instance);
         }
+
+        hasSpawned = true;
     }
 
     public void ClearSpawned()
@@ -39,5 +63,15 @@ public class EnemySpawnPoint : MonoBehaviour
         }
 
         spawned.Clear();
+        hasSpawned = false;
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawWireSphere(transform.position, triggerRadius);
+
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, spawnRadius);
     }
 }

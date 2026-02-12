@@ -1,0 +1,319 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1394792592340283261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8253327033240842834}
+  - component: {fileID: 2775135745608245995}
+  - component: {fileID: 6910988916253280768}
+  - component: {fileID: 2005664189819540959}
+  m_Layer: 0
+  m_Name: Animator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8253327033240842834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394792592340283261}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.117, y: -0.23, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 3539588837336478970}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2775135745608245995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394792592340283261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c14820158b449e642aeb4d3a52310e9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &6910988916253280768
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394792592340283261}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: eb59699a26cd07c46a88d3eae5cdcb0b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!212 &2005664189819540959
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394792592340283261}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 8516292307228750386, guid: c7240e6e27086d0499ccc57a35c3809a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &6105046824003569883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3539588837336478970}
+  - component: {fileID: 6600882154286111264}
+  - component: {fileID: 7101340262525954263}
+  - component: {fileID: 2507350939200002374}
+  - component: {fileID: 71891092900837129}
+  m_Layer: 0
+  m_Name: Bullet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3539588837336478970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6105046824003569883}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.667, y: 0.79, z: -0.0078563765}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8253327033240842834}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6600882154286111264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6105046824003569883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23cd4cd69c2722648a57ff28e23b6745, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 8
+  destroyTime: 3
+  hasSpawnAnim: 1
+  spawnAnimDuration: 0.2
+  hasHitAnim: 1
+  hitAnimDuration: 0.3
+  targetCheck: {fileID: 3539588837336478970}
+  targetCheckRadius: 0.2
+  whatIsTarget:
+    serializedVersion: 2
+    m_Bits: 64
+  defaultDuration: 3
+  chillSlowMultiplier: 0.2
+  electrifyChargeBuildUp: 0.4
+  fireScale: 0.8
+  lightningScale: 2.5
+--- !u!58 &7101340262525954263
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6105046824003569883}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: -0.0009728372}
+  m_Radius: 0.19949785
+--- !u!114 &2507350939200002374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6105046824003569883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96d9cfe78bbdbf54db6db3ece6287059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onDamageMaterial: {fileID: 2100000, guid: c1b0771c490e56642a6075c30ba0f83d, type: 2}
+  onDamageVfxDuration: 0.2
+  hitVfxColor: {r: 1, g: 1, b: 1, a: 1}
+  hitVfx: {fileID: 5797365665099944166, guid: aa77ea4c050e24b43b6beb70f81b7202, type: 3}
+  crithitVfx: {fileID: 893623902018813708, guid: 35e4c2aabe3ec4643b5d4d49ea323a84, type: 3}
+  chillVfx: {r: 0, g: 1, b: 1, a: 1}
+  burnVfx: {r: 1, g: 0, b: 0, a: 1}
+  electrifyVfx: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+--- !u!114 &71891092900837129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6105046824003569883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8855188d3fd97e5409355509669de7f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultStatSetup: {fileID: 0}
+  resource:
+    maxHealth:
+      baseValue: 0
+      modifiers: []
+    healthRegen:
+      baseValue: 0
+      modifiers: []
+  offense:
+    attackSpeed:
+      baseValue: 0
+      modifiers: []
+    damage:
+      baseValue: 100
+      modifiers: []
+    critPower:
+      baseValue: 0
+      modifiers: []
+    critChance:
+      baseValue: 0
+      modifiers: []
+    armorReduction:
+      baseValue: 0
+      modifiers: []
+    fireDamage:
+      baseValue: 0
+      modifiers: []
+    iceDamage:
+      baseValue: 0
+      modifiers: []
+    lightningDamage:
+      baseValue: 0
+      modifiers: []
+  defense:
+    armor:
+      baseValue: 0
+      modifiers: []
+    evasion:
+      baseValue: 0
+      modifiers: []
+    fireRes:
+      baseValue: 0
+      modifiers: []
+    iceRes:
+      baseValue: 0
+      modifiers: []
+    lightningRes:
+      baseValue: 0
+      modifiers: []
+  major:
+    strength:
+      baseValue: 0
+      modifiers: []
+    agility:
+      baseValue: 0
+      modifiers: []
+    intelligence:
+      baseValue: 0
+      modifiers: []
+    vitality:
+      baseValue: 0
+      modifiers: []

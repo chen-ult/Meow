@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 35f4c49c885362d4b834c9545eef9137
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4718929515557799478
+    second: Spawn_Fireball_0
+  - first:
+      213: 6912139030859568790
+    second: Spawn_Fireball_1
+  - first:
+      213: -2691548651541472720
+    second: Spawn_Fireball_2
+  - first:
+      213: -2173407009806346952
+    second: Spawn_Fireball_3
+  - first:
+      213: 7365348689186414574
+    second: Spawn_Fireball_4
+  - first:
+      213: 3983275907289884861
+    second: Spawn_Fireball_5
+  - first:
+      213: 5392930331026817121
+    second: Spawn_Fireball_6
+  - first:
+      213: -7156447487167671799
+    second: Spawn_Fireball_7
+  - first:
+      213: -157844836930057241
+    second: Spawn_Fireball_8
+  - first:
+      213: 6960394459663655358
+    second: Spawn_Fireball_9
+  - first:
+      213: -349048563315664457
+    second: Spawn_Fireball_10
+  - first:
+      213: -4213518423726498441
+    second: Spawn_Fireball_11
+  - first:
+      213: -1505119065666183958
+    second: Spawn_Fireball_12
+  - first:
+      213: -4129849478129674369
+    second: Spawn_Fireball_13
+  - first:
+      213: -3788021211121940559
+    second: Spawn_Fireball_14
+  - first:
+      213: -7353129973944707701
+    second: Spawn_Fireball_15
+  - first:
+      213: -5903151134056623824
+    second: Spawn_Fireball_16
+  - first:
+      213: 1551321505059095629
+    second: Spawn_Fireball_17
+  - first:
+      213: 800001356357151434
+    second: Spawn_Fireball_18
+  - first:
+      213: -7067988561505237830
+    second: Spawn_Fireball_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spawn_Fireball_0
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 215
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636cde674610d7140800000000000000
+      internalID: 4718929515557799478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Fireball_1
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 213
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6965f7493d9dcef50800000000000000
+      internalID: 6912139030859568790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Fireball_2
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 215
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a503903c2b5aad0800000000000000
+      internalID: -2691548651541472720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Fireball_3
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 213
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835162cf6d186d1e0800000000000000
+      internalID: -2173407009806346952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Fireball_4
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 233
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef58d90c99f63660800000000000000
+      internalID: 7365348689186414574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Fireball_5
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 215
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8a2685550774730800000000000000
+      internalID: 3983275907289884861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Fireball_6
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 221
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1608847209987da40800000000000000
+      internalID: 5392930331026817121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Fireball_7
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 219
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90252a94de03fac90800000000000000
+      internalID: -7156447487167671799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Fireball_8
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 217
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb872505f83fcdf0800000000000000
+      internalID: -157844836930057241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Fireball_9
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 209
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb169d022e9489060800000000000000
+      internalID: 6960394459663655358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Fireball_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 173
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b995365e2ee72bf0800000000000000
+      internalID: -349048563315664457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Fireball_11
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 173
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77dd73b51539685c0800000000000000
+      internalID: -4213518423726498441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Fireball_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 165
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec9c4a2f2ebc1be0800000000000000
+      internalID: -1505119065666183958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Fireball_13
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 149
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f779f30d7c3dfa6c0800000000000000
+      internalID: -4129849478129674369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Fireball_14
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 165
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b78e6d37ce3e6bc0800000000000000
+      internalID: -3788021211121940559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Fireball_15
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 149
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b859fbb4f3f64f990800000000000000
+      internalID: -7353129973944707701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Fireball_16
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 149
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0315c1fd15bc31ea0800000000000000
+      internalID: -5903151134056623824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Fireball_17
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 149
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44c87980b6678510800000000000000
+      internalID: 1551321505059095629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Fireball_18
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 141
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acaaf79befc2a1b00800000000000000
+      internalID: 800001356357151434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Fireball_19
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 141
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4c4f2e9d579ed90800000000000000
+      internalID: -7067988561505237830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spawn_Fireball_0: 4718929515557799478
+      Spawn_Fireball_1: 6912139030859568790
+      Spawn_Fireball_10: -349048563315664457
+      Spawn_Fireball_11: -4213518423726498441
+      Spawn_Fireball_12: -1505119065666183958
+      Spawn_Fireball_13: -4129849478129674369
+      Spawn_Fireball_14: -3788021211121940559
+      Spawn_Fireball_15: -7353129973944707701
+      Spawn_Fireball_16: -5903151134056623824
+      Spawn_Fireball_17: 1551321505059095629
+      Spawn_Fireball_18: 800001356357151434
+      Spawn_Fireball_19: -7067988561505237830
+      Spawn_Fireball_2: -2691548651541472720
+      Spawn_Fireball_3: -2173407009806346952
+      Spawn_Fireball_4: 7365348689186414574
+      Spawn_Fireball_5: 3983275907289884861
+      Spawn_Fireball_6: 5392930331026817121
+      Spawn_Fireball_7: -7156447487167671799
+      Spawn_Fireball_8: -157844836930057241
+      Spawn_Fireball_9: 6960394459663655358
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

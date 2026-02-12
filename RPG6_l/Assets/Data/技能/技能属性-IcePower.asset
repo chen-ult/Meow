@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 984e93e203c4fa84d8f24bfb19c62cb7, type: 3}
+  m_Name: "\u6280\u80FD\u5C5E\u6027-IcePower"
+  m_EditorClassIdentifier: 
+  cost: 0
+  skillType: 5
+  upgradeData:
+    upgradeType: 0
+    cooldown: 0
+  displayName: IcePower
+  description: 
+  icon: {fileID: 172049775, guid: add9b08795a3691459021c69d9a5a548, type: 3}
