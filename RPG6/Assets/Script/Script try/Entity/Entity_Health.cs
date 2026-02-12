@@ -206,5 +206,13 @@ public class Entity_Health : MonoBehaviour , IDamagable
         canRegenerateHealth = state;
     }
 
+    public void Revive()
+    {
+        isDead = false;
+        canTakeDamage = true;
+        if (!IsInvoking(nameof(RegenerateHealth)))
+            InvokeRepeating(nameof(RegenerateHealth), 0, regenInterval);
+    }
+
 
 }

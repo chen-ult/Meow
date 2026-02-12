@@ -165,6 +165,7 @@ public class Player : Entity
         if (!SaveManager.Instance.TryRespawn(this))
             return false;
 
+        health?.Revive();
         rb.simulated = true;
         input.Enable();
         rb.linearVelocity = Vector2.zero;

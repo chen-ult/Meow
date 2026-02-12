@@ -23,6 +23,12 @@ public class UI_InGame : MonoBehaviour
             UpdateHealthBar();
         }
 
+        if (player != null && player.health != null)
+        {
+            player.health.OnHealthUpdate += UpdateHealthBar;
+            UpdateHealthBar();
+        }
+
         skillSlots = GetComponentsInChildren<UI_SkillSlot>(true);
         // subscribe to player unlock events so UI updates only when player unlocks
         if (player != null)
@@ -58,6 +64,8 @@ public class UI_InGame : MonoBehaviour
     {
         if (player != null && player.stats != null)
             player.stats.OnStatsChanged -= UpdateHealthBar;
+        if (player != null && player.health != null)
+            player.health.OnHealthUpdate -= UpdateHealthBar;
         if (player != null)
             player.OnAbilityUnlockedEvent -= OnPlayerUnlockedAbility;
     }

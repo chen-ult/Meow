@@ -45,6 +45,8 @@ public class UI_DeathScreen : MonoBehaviour
             (SaveManager.Instance.HasSave() || SaveManager.Instance.HasStartPoint());
         if (respawnButton != null)
             respawnButton.interactable = canRespawn;
+        if (quitButton != null)
+            quitButton.interactable = true;
         if (noSaveText != null)
             noSaveText.gameObject.SetActive(!canRespawn);
 
