@@ -50,9 +50,9 @@ MonoBehaviour:
   skillData: {fileID: 11400000, guid: 8f9271853016a85459213e72af1fa7b8, type: 2}
   buffs:
   - type: 13
-    value: 25
+    value: 350
   buffName: Lightning Power
-  buffDuration: 4
+  buffDuration: 3
   canBeUsed: 1
   activationKey: 51
 --- !u!1 &1274548342307673936
@@ -102,7 +102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillType: 0
   upgradeType: 0
-  cooldown: 3
+  cooldown: 1.5
   skillData: {fileID: 11400000, guid: 29ece6d04105fd0429b18e0ef91c3a8c, type: 2}
 --- !u!114 &4823313760189770623
 MonoBehaviour:
@@ -118,14 +118,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillType: 3
   upgradeType: 0
-  cooldown: 10
+  cooldown: 20
   skillData: {fileID: 11400000, guid: 2d5bbb6d17dd5a24f98f8e4e7860d8c8, type: 2}
   targetCheck_AOE: {fileID: 2330029502459776480}
   targetCheckRadius_AOE: 2
   whatIsTarget_AOE:
     serializedVersion: 2
     m_Bits: 128
-  damage_AOE: 10
+  damage_AOE: 600
   aoe_duration: 1
 --- !u!1 &3402926998195432512
 GameObject:
@@ -208,9 +208,9 @@ MonoBehaviour:
   skillData: {fileID: 11400000, guid: b6d4bda536b4f8240b19c3e509cebba4, type: 2}
   buffs:
   - type: 11
-    value: 50
+    value: 350
   buffName: Fire Power
-  buffDuration: 50
+  buffDuration: 3
   canBeUsed: 1
   activationKey: 49
 --- !u!1 &3722767228104249732
@@ -263,9 +263,9 @@ MonoBehaviour:
   skillData: {fileID: 11400000, guid: 654c56141c9e4274e9d88ab21890002e, type: 2}
   buffs:
   - type: 12
-    value: 25
+    value: 350
   buffName: Ice Power
-  buffDuration: 4
+  buffDuration: 3
   canBeUsed: 1
   activationKey: 50
 --- !u!1 &4166422740635585969

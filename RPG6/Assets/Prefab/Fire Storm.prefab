@@ -227,6 +227,6 @@ MonoBehaviour:
   spawnAnimDuration: 0.25
   hasVanishAnim: 1
   vanishAnimDuration: 0.12
-  damagePerTick: 20
+  damagePerTick: 10
   tickInterval: 0.5
   element: 1

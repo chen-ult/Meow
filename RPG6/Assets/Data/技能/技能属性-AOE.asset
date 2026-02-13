@@ -16,7 +16,7 @@ MonoBehaviour:
   skillType: 3
   upgradeData:
     upgradeType: 0
-    cooldown: 10
+    cooldown: 20
   displayName: AOE
   description: 
   icon: {fileID: -1998063825, guid: add9b08795a3691459021c69d9a5a548, type: 3}

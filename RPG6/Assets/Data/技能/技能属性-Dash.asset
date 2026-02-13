@@ -16,7 +16,7 @@ MonoBehaviour:
   skillType: 0
   upgradeData:
     upgradeType: 0
-    cooldown: 3
+    cooldown: 1.5
   displayName: Dash
   description: 
   icon: {fileID: -345550503, guid: add9b08795a3691459021c69d9a5a548, type: 3}
