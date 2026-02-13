@@ -13,12 +13,15 @@ public class Boss_Health : Enemy_Health
 
     protected override void RegenerateHealth()
     {
-        // when boss已经进入第二阶段，则不再进行脱战回血
-        if (boss != null )
+        // when boss已经进入第二阶段，则不再进行回血
+        if (boss != null && boss.hasEnteredPhase2)
             return;
 
-        // otherwise use the normal Enemy_Health out-of-combat regen rules
-        base.RegenerateHealth();
+        if (!canRegenerateHealth)
+            return;
+
+        float regenAmount = entityStats.resource.healthRegen.GetValue();
+        IncreaseHealth(regenAmount);
     }
 
     

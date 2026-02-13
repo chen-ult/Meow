@@ -2090,6 +2090,14 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 546236974}
+    - target: {fileID: 7276245344377850560, guid: f7158ea92a4398f4aa4e56900e35d8f2, type: 3}
+      propertyPath: outOfCombatTime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7276245344377850560, guid: f7158ea92a4398f4aa4e56900e35d8f2, type: 3}
+      propertyPath: enableOutOfCombatRegen
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8911647031236558315, guid: f7158ea92a4398f4aa4e56900e35d8f2, type: 3}
       propertyPath: m_Name
       value: Boss

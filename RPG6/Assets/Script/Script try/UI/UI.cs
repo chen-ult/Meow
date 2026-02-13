@@ -9,12 +9,14 @@ public class UI : MonoBehaviour
     public UI_DeathScreen deathScreen;
     public UI_PauseMenu pauseMenu;
     [SerializeField] private GameObject bossHealthBarRoot;
+    [SerializeField] private UnityEngine.UI.Slider bossHealthSlider;
     public UI_SavePointMenu savePointMenu;
     public UI_GameOver gameOver;
 
     public UI_InGame inGameUI { get; private set; }
 
     private bool skillTreeEnabled;
+    private Boss_Health bossHealth;
 
     private void Awake()
     {
@@ -100,5 +102,40 @@ public class UI : MonoBehaviour
         {
             ShowBossHealthBar(false);
         }
+
+        BindBossHealth();
+    }
+
+    private void OnDestroy()
+    {
+        UnbindBossHealth();
+    }
+
+    private void BindBossHealth()
+    {
+        UnbindBossHealth();
+
+        bossHealth = FindFirstObjectByType<Boss_Health>();
+        if (bossHealth == null)
+            return;
+
+        bossHealth.OnHealthUpdate += UpdateBossHealthBar;
+        UpdateBossHealthBar();
+    }
+
+    private void UnbindBossHealth()
+    {
+        if (bossHealth != null)
+            bossHealth.OnHealthUpdate -= UpdateBossHealthBar;
+
+        bossHealth = null;
+    }
+
+    private void UpdateBossHealthBar()
+    {
+        if (bossHealthSlider == null || bossHealth == null)
+            return;
+
+        bossHealthSlider.value = bossHealth.GetHealthPercent();
     }
 }

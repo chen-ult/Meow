@@ -26,8 +26,10 @@ public class Boss : Enemy, ICounterable, ICanBeStunned
     [SerializeField] private float firestormOffsetX = 3f; // 从 Boss 左右生成时的水平偏移
     [SerializeField] private float roomHalfWidth = 10f;   // Boss 房间半宽，用于两端生成
     [SerializeField] private int maxFirestormPattern = 3; // 循环的模式数
+    [SerializeField] private float firestormCooldown = 2f; // 生成火焰飓风冷却时间
 
     private int phase2FirestormCastCount;
+    private float nextFirestormTime;
 
     [Header("Boss Attack Settings")]
     [Range(0f, 1f)]
@@ -142,6 +144,7 @@ public class Boss : Enemy, ICounterable, ICanBeStunned
         {
             hasEnteredPhase2 = true;
             phase2FirestormCastCount = 0; // 进入二阶段时重置施法计数
+            nextFirestormTime = Time.time + firestormCooldown;
 
             if (anim != null && !string.IsNullOrEmpty(phase2AnimBool))
             {
@@ -205,6 +208,11 @@ public class Boss : Enemy, ICounterable, ICanBeStunned
     {
         if (!hasEnteredPhase2 || firestormPrefab == null)
             return;
+
+        if (Time.time < nextFirestormTime)
+            return;
+
+        nextFirestormTime = Time.time + firestormCooldown;
 
         phase2FirestormCastCount++;
         int patternIndex = ((phase2FirestormCastCount - 1) % maxFirestormPattern) + 1; // 1..max
