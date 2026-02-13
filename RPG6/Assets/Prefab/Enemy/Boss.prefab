@@ -339,17 +339,17 @@ MonoBehaviour:
   defaultStatSetup: {fileID: 0}
   resource:
     maxHealth:
-      baseValue: 150
+      baseValue: 4000
       modifiers: []
     healthRegen:
-      baseValue: 0
+      baseValue: 2000
       modifiers: []
   offense:
     attackSpeed:
-      baseValue: 0
+      baseValue: 0.15
       modifiers: []
     damage:
-      baseValue: 10
+      baseValue: 30
       modifiers: []
     critPower:
       baseValue: 0
@@ -440,15 +440,15 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
-  battleMoveSpeed: 3
-  attackDistance: 2
+  battleMoveSpeed: 2
+  attackDistance: 1.8
   battleTimeDuration: 5
   minRetreatDistance: 1
   retreatVelocity: {x: 0, y: 0}
   stunnedDuration: 1
   stunnedVelocity: {x: 7, y: 7}
   canBeStunned: 0
-  idleTime: 2
+  idleTime: 1.5
   moveSpeed: 1.4
   moveAnimSpeedMultiplier: 1
   whatIsPlayer:
@@ -532,5 +532,5 @@ MonoBehaviour:
   heavyDamageThreshold: 0.3
   heavyKnockbackDuration: 0.5
   heavyKnockbackPower: {x: 7, y: 7}
-  outOfCombatTime: 3
+  outOfCombatTime: 5
   enableOutOfCombatRegen: 1

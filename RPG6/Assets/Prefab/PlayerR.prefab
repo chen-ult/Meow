@@ -630,7 +630,7 @@ MonoBehaviour:
       baseValue: 0.8
       modifiers: []
     damage:
-      baseValue: 30
+      baseValue: 200
       modifiers: []
     critPower:
       baseValue: 250
@@ -750,7 +750,7 @@ MonoBehaviour:
   heavyDamageThreshold: 0.3
   heavyKnockbackDuration: 0.5
   heavyKnockbackPower: {x: 7, y: 7}
-  healCooldown: 30
+  healCooldown: 15
   healDuration: 3
   healKey: 114
   cooldownImage: {fileID: 0}
