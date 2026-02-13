@@ -29,8 +29,9 @@ public class NPC_Vendor : MonoBehaviour
 
     private void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
-        playerController = player.GetComponent<Player>();
+        var playerObject = GameObject.FindGameObjectWithTag("Player");
+        player = playerObject != null ? playerObject.transform : null;
+        playerController = playerObject != null ? playerObject.GetComponent<Player>() : null;
         // 绑定按钮
         if (btnOpenShop != null)
             btnOpenShop.onClick.AddListener(OpenShopAndClose);
@@ -40,6 +41,9 @@ public class NPC_Vendor : MonoBehaviour
 
     private void Update()
     {
+        if (player == null)
+            return;
+
         inRange = Vector2.Distance(transform.position, player.position) < interactRange;
 
         if (inRange && Input.GetKeyDown(interactKey))
@@ -89,6 +93,9 @@ public class NPC_Vendor : MonoBehaviour
 
     void NextSentence()
     {
+        if (dialogue == null || dialogue.sentences == null || dialogue.sentences.Length == 0)
+            return;
+
         currentSentence++;
 
         // 判断：是不是最后一句
@@ -103,6 +110,15 @@ public class NPC_Vendor : MonoBehaviour
 
     void ShowCurrentSentence()
     {
+        if (dialogue == null || dialogue.sentences == null || dialogue.sentences.Length == 0)
+            return;
+
+        if (currentSentence < 0 || currentSentence >= dialogue.sentences.Length)
+            return;
+
+        if (UI_Dialogue.Instance == null)
+            return;
+
         string text = dialogue.sentences[currentSentence];
         UI_Dialogue.Instance.Show(text);
     }
@@ -125,9 +141,9 @@ public class NPC_Vendor : MonoBehaviour
     // 选择：打开商店
     void OpenShopAndClose()
     {
-        UI_Dialogue.Instance.Hide();
+        UI_Dialogue.Instance?.Hide();
         if (btnChoiceGroup != null) btnChoiceGroup.SetActive(false);
-        UI_Shop.Instance.OpenShop(shopItems, this);
+        UI_Shop.Instance?.OpenShop(shopItems, this);
         waitForChoice = false;
         SetPlayerController(false);
     }
@@ -135,7 +151,7 @@ public class NPC_Vendor : MonoBehaviour
     // 选择：只关闭对话
     void OnlyCloseTalk()
     {
-        UI_Dialogue.Instance.Hide();
+        UI_Dialogue.Instance?.Hide();
         if (btnChoiceGroup != null) btnChoiceGroup.SetActive(false);
         waitForChoice = false;
         SetPlayerController(true);
