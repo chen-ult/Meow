@@ -533,5 +533,5 @@ MonoBehaviour:
   heavyDamageThreshold: 0.3
   heavyKnockbackDuration: 0.5
   heavyKnockbackPower: {x: 7, y: 7}
-  outOfCombatTime: 5
+  outOfCombatTime: 50
   enableOutOfCombatRegen: 1

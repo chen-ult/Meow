@@ -411,7 +411,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   battleMoveSpeed: 2
-  attackDistance: 3.5
+  attackDistance: 1
   battleTimeDuration: 4
   minRetreatDistance: 1
   retreatVelocity: {x: 5, y: 3}
@@ -572,7 +572,7 @@ MonoBehaviour:
   defaultStatSetup: {fileID: 11400000, guid: eb71acc8c126d3d44a77943ec290f842, type: 2}
   resource:
     maxHealth:
-      baseValue: 1000
+      baseValue: 800
       modifiers: []
     healthRegen:
       baseValue: 1000

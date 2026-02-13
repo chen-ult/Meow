@@ -171,7 +171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23cd4cd69c2722648a57ff28e23b6745, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 6
   destroyTime: 3
   hasSpawnAnim: 1
   spawnAnimDuration: 0.2
