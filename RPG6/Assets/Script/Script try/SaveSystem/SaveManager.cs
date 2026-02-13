@@ -39,6 +39,10 @@ public class SaveManager : MonoBehaviour
     {
         PendingNewGame = true;
         PendingLoad = false;
+        pendingRespawnData = null;
+        pendingTeleportPoint = null;
+        pendingSpawnPointId = null;
+        unlockedSavePoints.Clear();
         DeleteSave();
     }
 
@@ -46,6 +50,21 @@ public class SaveManager : MonoBehaviour
     {
         PendingLoad = true;
         PendingNewGame = false;
+    }
+
+    public void ResetSaveAndRespawn(Player player)
+    {
+        BeginNewGame();
+
+        if (player == null)
+            return;
+
+        if (hasStartPoint)
+            player.transform.position = startPointPosition;
+
+        player.health?.SetHealthToPercent(1f);
+        Save(player);
+        ClearPending();
     }
 
     public void ClearPending()
@@ -129,6 +148,12 @@ public class SaveManager : MonoBehaviour
         if (player == null || player.stats == null)
             return;
 
+        if (player.stats.resource == null || player.stats.resource.maxHealth == null)
+            return;
+
+        if (player.stats.offense == null || player.stats.offense.damage == null)
+            return;
+
         var data = new SaveData
         {
             maxHealthBase = player.stats.resource.maxHealth.GetBaseValue(),
@@ -157,8 +182,16 @@ public class SaveManager : MonoBehaviour
         if (!File.Exists(SavePath))
             return false;
 
-        var json = File.ReadAllText(SavePath);
-        var data = JsonUtility.FromJson<SaveData>(json);
+        SaveData data;
+        try
+        {
+            var json = File.ReadAllText(SavePath);
+            data = JsonUtility.FromJson<SaveData>(json);
+        }
+        catch (System.Exception)
+        {
+            return false;
+        }
         if (data == null)
             return false;
 
@@ -239,8 +272,11 @@ public class SaveManager : MonoBehaviour
         foreach (var key in new System.Collections.Generic.List<SkillType>(player.abilityUnlocked.Keys))
             player.abilityUnlocked[key] = false;
 
-        foreach (var skill in data.unlockedSkills)
-            player.UnlockAbility(skill, null);
+        if (data.unlockedSkills != null)
+        {
+            foreach (var skill in data.unlockedSkills)
+                player.UnlockAbility(skill, null);
+        }
 
         if (CurrencyManager.instance != null)
             CurrencyManager.instance.SetCurrency(data.currency);

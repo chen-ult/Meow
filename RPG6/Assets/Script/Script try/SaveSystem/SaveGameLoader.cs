@@ -46,12 +46,8 @@ public class SaveGameLoader : MonoBehaviour
 
         if (manager.PendingNewGame)
         {
-            if (startPoint != null)
-                player.transform.position = startPoint.position;
-
-            player.health?.SetHealthToPercent(1f);
-            manager.Save(player);
-            manager.ClearPending();
+            manager.ResetSaveAndRespawn(player);
+            return;
         }
 
         // rebind cinemachine virtual cameras to player after scene load
