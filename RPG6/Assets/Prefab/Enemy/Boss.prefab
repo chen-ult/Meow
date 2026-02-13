@@ -464,6 +464,7 @@ MonoBehaviour:
   firestormOffsetX: 3
   roomHalfWidth: 10
   maxFirestormPattern: 3
+  firestormCooldown: 2
   lightAttackChance: 0.7
   lightPhysicalScale: 1
   lightElementScale: 0.5
