@@ -410,16 +410,16 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
-  battleMoveSpeed: 3
-  attackDistance: 2
-  battleTimeDuration: 5
+  battleMoveSpeed: 2
+  attackDistance: 3.5
+  battleTimeDuration: 4
   minRetreatDistance: 1
   retreatVelocity: {x: 5, y: 3}
   stunnedDuration: 1
   stunnedVelocity: {x: 7, y: 7}
   canBeStunned: 0
   idleTime: 2
-  moveSpeed: 1.4
+  moveSpeed: 3
   moveAnimSpeedMultiplier: 1
   whatIsPlayer:
     serializedVersion: 2
@@ -575,14 +575,14 @@ MonoBehaviour:
       baseValue: 1000
       modifiers: []
     healthRegen:
-      baseValue: 0
+      baseValue: 1000
       modifiers: []
   offense:
     attackSpeed:
       baseValue: 1
       modifiers: []
     damage:
-      baseValue: 10
+      baseValue: 15
       modifiers: []
     critPower:
       baseValue: 150
@@ -659,6 +659,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drops:
+  - prefab: {fileID: 4346360588959354621, guid: cdde93258a422a746be086f1388eff7a, type: 3}
+    chance: 1
+    min: 1
+    max: 1
+  - prefab: {fileID: 4346360588959354621, guid: cdde93258a422a746be086f1388eff7a, type: 3}
+    chance: 1
+    min: 1
+    max: 1
   - prefab: {fileID: 4346360588959354621, guid: cdde93258a422a746be086f1388eff7a, type: 3}
     chance: 1
     min: 1

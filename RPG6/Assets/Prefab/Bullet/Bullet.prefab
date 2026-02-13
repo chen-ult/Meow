@@ -268,7 +268,7 @@ MonoBehaviour:
       baseValue: 0
       modifiers: []
     damage:
-      baseValue: 100
+      baseValue: 45
       modifiers: []
     critPower:
       baseValue: 0

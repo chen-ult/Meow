@@ -140,30 +140,30 @@ MonoBehaviour:
     - Want to buy something?
   shopItems:
   - itemName: Dash Book
-    price: 2
+    price: 20
     itemPrefab: {fileID: 4619262643290157387, guid: 89726956a2e7fcc478570a4ec4f8df77, type: 3}
     itemIcon: {fileID: 810476615, guid: 4788e471e5b504b4d988d594a0d2936e, type: 3}
-    description: You Can Dash
+    description: Get Dash ability
   - itemName: AOE Book
-    price: 2
+    price: 30
     itemPrefab: {fileID: 6462588870267853577, guid: 3ca35a3b5b669764aa79cae5513f8e21, type: 3}
     itemIcon: {fileID: 611627226, guid: 4788e471e5b504b4d988d594a0d2936e, type: 3}
-    description: Power
+    description: Do you want power?
   - itemName: Fire Power
-    price: 2
+    price: 25
     itemPrefab: {fileID: 3102027281492554783, guid: 50b6aee713923de4baf1d2f5fdc6d86c, type: 3}
     itemIcon: {fileID: -1880531917, guid: 4788e471e5b504b4d988d594a0d2936e, type: 3}
-    description: Fire
+    description: You can use fire ability
   - itemName: Ice Power
-    price: 2
+    price: 25
     itemPrefab: {fileID: 3841274920851197394, guid: 5b40e9a584109c84297a9b638807a1ce, type: 3}
     itemIcon: {fileID: 1735682116, guid: 4788e471e5b504b4d988d594a0d2936e, type: 3}
-    description: Ice
-  - itemName: Ice Power
-    price: 2
-    itemPrefab: {fileID: 3841274920851197394, guid: 5b40e9a584109c84297a9b638807a1ce, type: 3}
-    itemIcon: {fileID: 1735682116, guid: 4788e471e5b504b4d988d594a0d2936e, type: 3}
-    description: Lightning
+    description: You can use ice ability
+  - itemName: Lighting Power
+    price: 25
+    itemPrefab: {fileID: 7017060136750753449, guid: 3d9f57784a1904045bc21ffab6390157, type: 3}
+    itemIcon: {fileID: 188384432, guid: 4788e471e5b504b4d988d594a0d2936e, type: 3}
+    description: You can use lighting ability
   - itemName: '>.<'
     price: 0
     itemPrefab: {fileID: 4861054139716909658, guid: fe5ff4bc98005414e9376894679b1131, type: 3}

@@ -331,9 +331,9 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
-  battleMoveSpeed: 3
-  attackDistance: 2
-  battleTimeDuration: 5
+  battleMoveSpeed: 1
+  attackDistance: 1.5
+  battleTimeDuration: 10
   minRetreatDistance: 1
   retreatVelocity: {x: 5, y: 3}
   stunnedDuration: 1
@@ -493,17 +493,17 @@ MonoBehaviour:
   defaultStatSetup: {fileID: 11400000, guid: eb71acc8c126d3d44a77943ec290f842, type: 2}
   resource:
     maxHealth:
-      baseValue: 1000
+      baseValue: 1500
       modifiers: []
     healthRegen:
-      baseValue: 0
+      baseValue: 1500
       modifiers: []
   offense:
     attackSpeed:
-      baseValue: 1
+      baseValue: 0.7
       modifiers: []
     damage:
-      baseValue: 10
+      baseValue: 30
       modifiers: []
     critPower:
       baseValue: 150
@@ -580,6 +580,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drops:
+  - prefab: {fileID: 4346360588959354621, guid: cdde93258a422a746be086f1388eff7a, type: 3}
+    chance: 1
+    min: 1
+    max: 1
+  - prefab: {fileID: 4346360588959354621, guid: cdde93258a422a746be086f1388eff7a, type: 3}
+    chance: 1
+    min: 1
+    max: 1
+  - prefab: {fileID: 4346360588959354621, guid: cdde93258a422a746be086f1388eff7a, type: 3}
+    chance: 1
+    min: 1
+    max: 1
+  - prefab: {fileID: 4346360588959354621, guid: cdde93258a422a746be086f1388eff7a, type: 3}
+    chance: 1
+    min: 1
+    max: 1
+  - prefab: {fileID: 4346360588959354621, guid: cdde93258a422a746be086f1388eff7a, type: 3}
+    chance: 1
+    min: 1
+    max: 1
+  - prefab: {fileID: 4346360588959354621, guid: cdde93258a422a746be086f1388eff7a, type: 3}
+    chance: 1
+    min: 1
+    max: 1
+  - prefab: {fileID: 4346360588959354621, guid: cdde93258a422a746be086f1388eff7a, type: 3}
+    chance: 1
+    min: 1
+    max: 1
+  - prefab: {fileID: 4346360588959354621, guid: cdde93258a422a746be086f1388eff7a, type: 3}
+    chance: 1
+    min: 1
+    max: 1
+  - prefab: {fileID: 4346360588959354621, guid: cdde93258a422a746be086f1388eff7a, type: 3}
+    chance: 1
+    min: 1
+    max: 1
   - prefab: {fileID: 4346360588959354621, guid: cdde93258a422a746be086f1388eff7a, type: 3}
     chance: 1
     min: 1

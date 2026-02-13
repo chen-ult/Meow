@@ -382,8 +382,8 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
-  battleMoveSpeed: 3
-  attackDistance: 7.76
+  battleMoveSpeed: 1
+  attackDistance: 10
   battleTimeDuration: 5
   minRetreatDistance: 1.38
   retreatVelocity: {x: 0, y: 0}
@@ -391,7 +391,7 @@ MonoBehaviour:
   stunnedVelocity: {x: 7, y: 7}
   canBeStunned: 0
   idleTime: 2
-  moveSpeed: 1.4
+  moveSpeed: 2
   moveAnimSpeedMultiplier: 1
   whatIsPlayer:
     serializedVersion: 2
@@ -400,10 +400,10 @@ MonoBehaviour:
   playerCheckDistance: 10
   bulletPrefab: {fileID: 6105046824003569883, guid: cf1b508f8eacc6141a3295de5dbb9d7a, type: 3}
   firePoint: {fileID: 3654190746906829062}
-  attackCooldown: 2
-  teleportDistance: 5
-  teleportCooldown: 0
-  teleportDuration: 0.15
+  attackCooldown: 10
+  teleportDistance: 3
+  teleportCooldown: 30
+  teleportDuration: 3
   teleportTriggerDistance: 2
 --- !u!70 &5459102834141198638
 CapsuleCollider2D:
@@ -491,7 +491,7 @@ MonoBehaviour:
   heavyDamageThreshold: 0.3
   heavyKnockbackDuration: 0.5
   heavyKnockbackPower: {x: 7, y: 7}
-  outOfCombatTime: 0.5
+  outOfCombatTime: 3
   enableOutOfCombatRegen: 1
 --- !u!114 &783217821720481543
 MonoBehaviour:
@@ -529,17 +529,17 @@ MonoBehaviour:
   defaultStatSetup: {fileID: 11400000, guid: eb71acc8c126d3d44a77943ec290f842, type: 2}
   resource:
     maxHealth:
-      baseValue: 100
+      baseValue: 400
       modifiers: []
     healthRegen:
-      baseValue: 100
+      baseValue: 1000
       modifiers: []
   offense:
     attackSpeed:
-      baseValue: 1
+      baseValue: 10
       modifiers: []
     damage:
-      baseValue: 0
+      baseValue: 45
       modifiers: []
     critPower:
       baseValue: 150
@@ -616,6 +616,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drops:
+  - prefab: {fileID: 4346360588959354621, guid: cdde93258a422a746be086f1388eff7a, type: 3}
+    chance: 1
+    min: 1
+    max: 1
+  - prefab: {fileID: 4346360588959354621, guid: cdde93258a422a746be086f1388eff7a, type: 3}
+    chance: 1
+    min: 1
+    max: 1
+  - prefab: {fileID: 4346360588959354621, guid: cdde93258a422a746be086f1388eff7a, type: 3}
+    chance: 1
+    min: 1
+    max: 1
+  - prefab: {fileID: 4346360588959354621, guid: cdde93258a422a746be086f1388eff7a, type: 3}
+    chance: 1
+    min: 1
+    max: 1
+  - prefab: {fileID: 4346360588959354621, guid: cdde93258a422a746be086f1388eff7a, type: 3}
+    chance: 1
+    min: 1
+    max: 1
+  - prefab: {fileID: 4346360588959354621, guid: cdde93258a422a746be086f1388eff7a, type: 3}
+    chance: 1
+    min: 1
+    max: 1
   - prefab: {fileID: 4346360588959354621, guid: cdde93258a422a746be086f1388eff7a, type: 3}
     chance: 1
     min: 1
