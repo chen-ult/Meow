@@ -66,6 +66,30 @@ public class UI_SkillSlot : MonoBehaviour
         buffGcdManager = FindFirstObjectByType<BuffGlobalCooldownManager>();
     }
 
+    public void ClearSlot()
+    {
+        skillData = null;
+        boundSkill = null;
+
+        if (inputKeyText != null)
+            inputKeyText.text = string.Empty;
+
+        if (skillIcon != null)
+        {
+            skillIcon.sprite = null;
+            skillIcon.color = new Color(1f, 1f, 1f, 0.5f);
+        }
+
+        if (cooldownImage != null)
+        {
+            cooldownImage.fillAmount = 0f;
+            cooldownImage.enabled = false;
+        }
+
+        if (button != null)
+            button.interactable = false;
+    }
+
     private void Update()
     {
         if (cooldownImage == null) return;

@@ -7,4 +7,16 @@ public class Enemy_Ranged_DeadState : Enemy_RangedState
     {
         col = enemy.GetComponent<Collider2D>();
     }
+
+
+    public override void Enter()
+    {
+        anim.enabled = false;
+        col.enabled = false;
+
+        rb.gravityScale = 12;
+        rb.linearVelocity = new Vector3(rb.linearVelocity.x, 15);
+
+        stateMachine.SwitchOffStateMachine();
+    }
 }

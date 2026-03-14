@@ -59,10 +59,24 @@ public class SaveManager : MonoBehaviour
         if (player == null)
             return;
 
+        if (player.stats != null)
+        {
+            player.stats.ApplyDefaultStatSetup();
+            player.stats.NotifyStatsChanged();
+        }
+
+        foreach (var key in new System.Collections.Generic.List<SkillType>(player.abilityUnlocked.Keys))
+            player.abilityUnlocked[key] = false;
+
+        if (CurrencyManager.instance != null)
+            CurrencyManager.instance.SetCurrency(0);
+
         if (hasStartPoint)
             player.transform.position = startPointPosition;
 
+        player.health?.Revive();
         player.health?.SetHealthToPercent(1f);
+        player.ui?.inGameUI?.RefreshSkillSlots(player);
         Save(player);
         ClearPending();
     }
@@ -275,7 +289,12 @@ public class SaveManager : MonoBehaviour
         if (data.unlockedSkills != null)
         {
             foreach (var skill in data.unlockedSkills)
-                player.UnlockAbility(skill, null);
+            {
+                var skillData = player.skillManager != null
+                    ? player.skillManager.GetSkillByType(skill)?.skillData
+                    : null;
+                player.UnlockAbility(skill, skillData);
+            }
         }
 
         if (CurrencyManager.instance != null)
@@ -287,6 +306,7 @@ public class SaveManager : MonoBehaviour
 
         player.transform.position = data.checkpointPosition;
         player.health?.SetHealthToPercent(1f);
+        player.ui?.inGameUI?.RefreshSkillSlots(player);
     }
 }
 

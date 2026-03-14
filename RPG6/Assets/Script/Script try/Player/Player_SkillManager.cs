@@ -17,6 +17,7 @@ public class Player_SkillManager : MonoBehaviour
         switch (type) 
         {
             case SkillType.Dash: return dash;
+            case SkillType.AOE: return aoe;
 
             default:
                 Debug.Log("没有技能");

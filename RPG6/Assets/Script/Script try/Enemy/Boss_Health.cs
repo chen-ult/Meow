@@ -17,6 +17,9 @@ public class Boss_Health : Enemy_Health
         if (boss != null && boss.hasEnteredPhase2)
             return;
 
+        if (!enableOutOfCombatRegen || outOfCombatTimer < outOfCombatTime)
+            return;
+
         if (!canRegenerateHealth)
             return;
 

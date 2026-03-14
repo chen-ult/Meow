@@ -6813,6 +6813,12 @@ MonoBehaviour:
   count: 1
   spawnRadius: 1.16
   spawnOnStart: 0
+  spawnOnPlayerEnter: 1
+  triggerRadius: 3
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  spawnOnce: 1
 --- !u!1 &1542894796
 GameObject:
   m_ObjectHideFlags: 0
@@ -7245,7 +7251,9 @@ MonoBehaviour:
   deathScreen: {fileID: 466512201}
   pauseMenu: {fileID: 810556206}
   bossHealthBarRoot: {fileID: 213457589}
+  bossHealthSlider: {fileID: 0}
   savePointMenu: {fileID: 1597028599}
+  gameOver: {fileID: 0}
 --- !u!1 &1587291800
 GameObject:
   m_ObjectHideFlags: 0

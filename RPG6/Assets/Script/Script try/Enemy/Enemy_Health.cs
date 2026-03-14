@@ -7,11 +7,11 @@ public class Enemy_Health : Entity_Health
     Enemy enemy => GetComponent<Enemy>() ?? GetComponentInParent<Enemy>();
 
     [Header("敌人脱战回血专属设置")]
-    [SerializeField] private float outOfCombatTime = 3f; // 敌人受击后，多久没挨打开始回血（秒，面板可调节）
+    [SerializeField] protected float outOfCombatTime = 3f; // 敌人受击后，多久没挨打开始回血（秒，面板可调节）
     public bool enableOutOfCombatRegen = true; // 是否开启敌人脱战回血（可单独关闭）
 
-    private float outOfCombatTimer; // 敌人专属脱战计时器（记录最后一次受击到现在的时间）
-    private bool outOfCombatRegenTriggered = false;
+    protected float outOfCombatTimer; // 敌人专属脱战计时器（记录最后一次受击到现在的时间）
+    protected bool outOfCombatRegenTriggered = false;
 
     protected override void Awake()
     {

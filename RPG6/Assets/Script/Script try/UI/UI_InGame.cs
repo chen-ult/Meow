@@ -34,18 +34,7 @@ public class UI_InGame : MonoBehaviour
         if (player != null)
         {
             player.OnAbilityUnlockedEvent += OnPlayerUnlockedAbility;
-            // initialize skill slots from already-unlocked abilities
-            foreach (var kv in player.abilityUnlocked)
-            {
-                if (kv.Value)
-                {
-                    // try to find matching Skill_Base to get its Skill_DataSO
-                    var sk = player.skillManager?.GetSkillByType(kv.Key);
-                    var data = sk != null ? sk.skillData : null;
-                    if (data != null)
-                        OnPlayerUnlockedAbility(kv.Key, data);
-                }
-            }
+            RefreshSkillSlots(player);
         }
     }
 
@@ -77,6 +66,31 @@ public class UI_InGame : MonoBehaviour
         if (slot != null && skillData != null)
         {
             slot.SetUpSkillSlot(skillData);
+        }
+    }
+
+    public void RefreshSkillSlots(Player targetPlayer)
+    {
+        if (targetPlayer == null)
+            return;
+
+        player = targetPlayer;
+
+        if (skillSlots == null || skillSlots.Length == 0)
+            skillSlots = GetComponentsInChildren<UI_SkillSlot>(true);
+
+        foreach (var slot in skillSlots)
+            slot.ClearSlot();
+
+        foreach (var kv in targetPlayer.abilityUnlocked)
+        {
+            if (!kv.Value)
+                continue;
+
+            var skill = targetPlayer.skillManager?.GetSkillByType(kv.Key);
+            var data = skill != null ? skill.skillData : null;
+            if (data != null)
+                OnPlayerUnlockedAbility(kv.Key, data);
         }
     }
 

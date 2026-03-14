@@ -1,8 +1,11 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy : Entity
 {
+    private static readonly List<Collider2D> EnemyColliders = new List<Collider2D>();
+    private Collider2D[] cachedColliders;
     public Enemy_IdleState idleState;//µĞÈË¿ÕÏĞ×´Ì¬
     public Enemy_MoveState moveState;//µĞÈËÒÆ¶¯×´Ì¬
     public Enemy_AttackState attackState;//µĞÈË¹¥»÷×´Ì¬
